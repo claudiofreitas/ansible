@@ -8,6 +8,7 @@
       - stow
       - koekeishiya/formulae/yabai
       - koekeishiya/formulae/skhd
+      - exa
   - name: Install brew casks
     homebrew_cask:
       name:

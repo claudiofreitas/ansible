@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:
+  - name: Install brew packages
+    homebrew:
+      name: 
+      - bat
+      - jq
+      - stow

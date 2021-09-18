@@ -7,3 +7,5 @@
 brew analytics off
 brew analytics state
 
+## Install ansible
+brew install ansible

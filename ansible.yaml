@@ -6,3 +6,10 @@
       - bat
       - jq
       - stow
+      - koekeishiya/formulae/yabai
+      - koekeishiya/formulae/skhd
+  - name: Install brew casks
+    homebrew_cask:
+      name:
+      - karabiner-elements
+      - iterm2

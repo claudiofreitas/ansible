@@ -9,6 +9,7 @@
       - koekeishiya/formulae/yabai
       - koekeishiya/formulae/skhd
       - exa
+      - tmux
   - name: Install brew casks
     homebrew_cask:
       name:

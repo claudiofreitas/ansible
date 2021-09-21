@@ -10,8 +10,10 @@
       - koekeishiya/formulae/skhd
       - exa
       - tmux
+      - tldr
   - name: Install brew casks
     homebrew_cask:
       name:
       - karabiner-elements
       - iterm2
+      - alacritty

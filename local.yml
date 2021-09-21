@@ -14,6 +14,7 @@
       - stow
       - koekeishiya/formulae/yabai
       - koekeishiya/formulae/skhd
+      - cmacrae/formulae/spacebar
       - exa
       - tmux
       - tldr

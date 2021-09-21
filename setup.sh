@@ -12,3 +12,6 @@ brew upgrade
 
 ## Install ansible
 brew install ansible
+
+## Run ansible
+ansible-playbook --verbose --connection local --inventory localhost, local.yml

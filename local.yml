@@ -1,5 +1,11 @@
 - hosts: localhost
   tasks:
+
+
+  - name: Update brew
+    homebrew:
+      update_homebrew: yes
+
   - name: Install brew packages
     homebrew:
       name: 
@@ -11,9 +17,14 @@
       - exa
       - tmux
       - tldr
+      state: present
+
   - name: Install brew casks
     homebrew_cask:
       name:
       - karabiner-elements
-      - iterm2
+      # - iterm2
       - alacritty
+      state: present
+      greedy: yes
+
